@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .btn-outline-orange {
+            color: #e68a22;
+            background-color: transparent;
+            background-image: none;
+            border-color: #e68a22;
+        }
+
+        .navbar {
+            background-color: #2c9bfd;
+        }
+
+        nav,
+        .nav-item>a,
+        a.navbar-brand {
+            color: white !important;
+        }
+
+        .separator {
+            width: 1px;
+            height: 40px;
+            background-color: white !important;
+            display: block;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">MUM Golden Dome Market ::: SRM System</a>
+        <a class="separator"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="separator"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Suppliers</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                Hello! &nbsp;&nbsp;
+                <button class="btn my-2 my-sm-0" type="submit">Sign Out</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 row mt-5 text-secondary mx-auto">
+                <h4 class="h4 mb-4">New Product Form</h4>
+                <form class="col-md-12 row mx-auto">
+                    <div class="form-group col-md-6">
+                        <label for="product">product number</label>
+                        <input type="text" class="form-control" id="product">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="stock">Quantity in stock</label>
+                        <input type="number" class="form-control" id="stock" value="0">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="nameInput">Name</label>
+                        <input type="text" class="form-control" id="nameInput">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="supplier">Supplier:</label>
+                        <select class="form-control" id="supplier">
+                            <option>Select a supplier</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="price">Unit Price</label>
+                        <input type="nymber" value="0.0" class="form-control" id="price">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="date">Date supplied</label>
+                        <input type="date" placeholder="yyyy-mm-dd" class="form-control" id="date">
+                        <small class="form-text text-muted">Enter a valid Date.</small>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <button type="button" class="float-right btn btn-outline-info mx-3">Add Product</button>
+                        <button type="button" class="float-right btn btn-outline-orange mx-3">Cancel</button>
+                        <button type="button" class="float-right btn btn-outline-primary mx-3">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <a href="index.html" class=" col-md-12 text-center link mt-5 pt-5">first page</a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
